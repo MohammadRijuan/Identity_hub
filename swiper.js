@@ -1,7 +1,13 @@
 var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 1, // 1 slide visible at a time
-  spaceBetween: 30, // optional
+  slidesPerView: 1,
+  spaceBetween: 30,
   cssMode: true,
+  loop: true, 
+  autoplay: {
+    delay: 4000,                
+    disableOnInteraction: false,
+    pauseOnMouseEnter: true,
+  },
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
@@ -12,4 +18,10 @@ var swiper = new Swiper(".mySwiper", {
   },
   mousewheel: true,
   keyboard: true,
+
+  // Draggable/swipeable
+  grabCursor: true,     
+  simulateTouch: true, 
+  touchRatio: 1,          
+  touchAngle: 45,         
 });
