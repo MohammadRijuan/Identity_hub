@@ -156,14 +156,9 @@ body {
     max-width: 1440px; 
     margin: 0 auto;
     text-align: center;
-    
-
-    /* padding-top: 89px; */
 
     background-repeat: no-repeat;
   
-
-
     background-position: center;
 
     position: relative;
@@ -186,10 +181,10 @@ body {
 .hero-inner::before {
     content: "";
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 37%;
     width: 500px;
-    height: 500px;
+    height: 550px;
     background: var(--Stock-linear-2);
     filter: blur(100px);
     opacity: 0.4  ;
