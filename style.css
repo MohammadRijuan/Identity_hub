@@ -181,7 +181,7 @@ body {
 .hero-inner::before {
     content: "";
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 37%;
     width: 500px;
     height: 550px;
