@@ -442,10 +442,15 @@ body {
 }
 
 .service-card:hover {
-    background: radial-gradient(center,#181035 30%);
+    background-image: 
+        radial-gradient(circle at center, #1d1542 0%, #0c0a14 53%, #000000 100%),
+        linear-gradient(90deg, #090EDB, #8D1EA2, #090EDB);
     transform: translateY(-5px);
-
+    box-shadow: 
+        0px 0px 15px 0px rgba(255, 255, 255, 0.15) inset,
+        0px 6px 25px 0px rgba(0, 0, 0, 0.6);
 }
+
 
 @keyframes border-animate {
     0% {
