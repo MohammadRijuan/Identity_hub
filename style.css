@@ -493,28 +493,6 @@ body {
     position: relative;
 }
 
-/* .service-card::before {
-    content: '';
-    position: absolute;
-    top: -4px;
-    left: -4px;
-    right: -4px;
-    bottom: -4px;
-    background-image:
-        radial-gradient(circle at center, #181035 0%, #0c0a14 53%, #000000 100%),
-        linear-gradient(90deg, #090EDB, #8D1EA2, #090EDB);
-    background-size: 200% auto;
-    animation: border-animate 4s linear infinite;
-    z-index: -1;
-
-    
-    clip-path: polygon(-4px -4px,
-            calc(85% + 4px) -4px,
-            calc(100% + 4px) calc(18% - 4px),
-            calc(100% + 4px) calc(100% + 4px),
-            -2px calc(100% + 4px));
-} */
-
 
 .service-card:hover {
     background-image:
@@ -1662,6 +1640,10 @@ footer {
         max-height: 100%;
         padding: 15px;
         gap: 20px;
+    }
+
+    .choose-container::before{
+        opacity: 0.3;
     }
 
     .cards-item {
