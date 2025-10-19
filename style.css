@@ -186,15 +186,13 @@ body {
     position: absolute;
     top: 30%;
     left: 37%;
-    width: 400px;
-    height: 400px;
-    
-    background: linear-gradient(to top, #090edb, #e73dc4);
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(to top, #090edb 70%, #e73dc4 30%);
     filter: blur(100px);
-    opacity: 0.5;
+    opacity: 0.4  ;
     z-index: 1;
     mix-blend-mode: overlay;
-    
     pointer-events: none;
 }
 
