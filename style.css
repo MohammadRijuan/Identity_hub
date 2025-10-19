@@ -1536,6 +1536,7 @@ footer {
 }
 
 
+
 @media only screen and (max-width:576px) {
     .container {
         gap: 0;
@@ -1626,6 +1627,7 @@ footer {
     .all-section-title {
         margin-top: 10px;
         font-size: 20px;
+        /* font-size: 100%; */
         padding: 0 10px;
     }
 
@@ -1642,6 +1644,21 @@ footer {
         padding: 15px;
         gap: 20px;
     }
+    .cards-item{
+        max-height: 100%;
+    }
+
+    .cards-line .c-line-img{
+        max-height: 100%;
+    }
+
+    .content-item {
+        max-height: 100%;
+    }
+
+    .content-item .content:not(:last-child) {
+    margin-bottom: 15px;
+}
 
     .cards-item {
         gap: 10px;
@@ -1657,7 +1674,7 @@ footer {
     }
 
     .checkmark-desc {
-        font-size: 12px;
+        font-size: 100%;
     }
 
     .info {
@@ -1726,7 +1743,8 @@ footer {
     }
 
     .test-inner-desc {
-        font-size: 12px;
+        /* font-size: 12px; */
+        font-size: 100%;
     }
 
 
@@ -1800,6 +1818,10 @@ footer {
 
     .g-1{
         left: 12%;
+    }
+    .g-2{
+        left:2%;
+        top: 20%;
     }
 
     .g-3{
