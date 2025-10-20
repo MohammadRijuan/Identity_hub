@@ -58,6 +58,7 @@ body {
     border-radius: 12px;
     gap: 218px;
     border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px 0;
 }
 
 .navbar-collapse {
@@ -108,18 +109,18 @@ body {
     font-style: normal;
     font-size: 16px;
     line-height: 100%;
-    letter-spacing: 0%;
+    letter-spacing: 0% !important;
     color: var(--font-basic-color);
     max-width: 155px;
     max-height: 40px;
     border: 2px solid transparent;
     box-shadow: 0px 0px 12px 0px rgba(255, 255, 255, 0.2) inset;
     border-radius: 12px;
-    padding: 10px 20px;
+    padding: 12px 20px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 2px;
+    /* gap: 4px; */
     text-align: center;
     font-weight: var(--font-weight-normal);
     font-size: 14px;
