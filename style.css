@@ -99,7 +99,7 @@ body {
     padding: 0;
 }
 
-.nav-item .nav-link:hover{
+.nav-item .nav-link:hover {
     color: #e73dc4;
 }
 
@@ -1441,8 +1441,7 @@ body {
 }
 
 .btnn-2 {
-
-    background: linear-gradient(90deg, #090EDB 10%, #8D1EA2 60%);
+    background: linear-gradient(87.43deg, #090EDB 8.8%, #DA24BB 84.38%);
     border: none;
     border-radius: 12px;
     color: white;
