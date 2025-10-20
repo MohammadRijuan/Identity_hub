@@ -104,6 +104,7 @@ body {
 
 
 .btnn {
+    width: 155px;
     font-family: var(--font-aeonik);
     font-weight: 400;
     font-style: normal;
@@ -357,8 +358,8 @@ body {
 }
 
 .img-content-1 {
-    max-width: 211px;
-    max-height: 64px;
+    width: 212px;
+    height: 64px;
     position: absolute;
     top: 2%;
     left: 15%;
@@ -367,8 +368,8 @@ body {
 }
 
 .img-content-2 {
-    max-width: 211px;
-    max-height: 64px;
+    width: 212px;
+    height: 64px;
     position: absolute;
     left: 15%;
     bottom: 25%;
@@ -377,8 +378,8 @@ body {
 }
 
 .img-content-3 {
-    max-width: 211px;
-    max-height: 64px;
+    width: 212px;
+    height: 64px;
     position: absolute;
     top: 2%;
     right: 15%;
@@ -387,8 +388,8 @@ body {
 }
 
 .img-content-4 {
-    max-width: 211px;
-    max-height: 64px;
+    width: 212px;
+    height: 64px;
     position: absolute;
     right: 15%;
     bottom: 25%;
@@ -460,14 +461,14 @@ body {
 .service-card-container {
     display: flex;
     max-width: 1340px;
-    padding: 10px;
+    padding: 40px 10px 10px 10px;
     margin: 0 auto;
     gap: 24px;
 }
 
 .service-card {
     max-width: 424px;
-    max-height: 370px;
+    height: 370px;
     padding: 32px;
     text-align: start;
     border-radius: 32px 70px 32px 32px;
@@ -544,6 +545,7 @@ body {
     line-height: 140%;
     letter-spacing: 0%;
     color: var(--font-color-text);
+    margin-bottom: 24px;
 
 }
 
@@ -701,6 +703,7 @@ body {
     text-align: center;
     padding: 0 122px;
     color: var(--font-basic-color);
+    margin-bottom: 16px;
 
 }
 
@@ -713,7 +716,9 @@ body {
     letter-spacing: 0%;
     text-align: center;
     color: var(--font-color-text);
-    margin-bottom: 40px;
+    /* padding-top: 16px; */
+    /* padding-bottom: 40px; */
+    /* margin-bottom: 40px; */
 
 }
 
@@ -1614,7 +1619,7 @@ footer {
     }
 
     .service-card {
-        max-height: 100%;
+        height: 100%;
         margin-bottom: 0;
     }
 
@@ -1899,7 +1904,7 @@ footer {
     }
 
     .service-card {
-        max-height: 100%;
+        height: 100%;
         padding: 15px;
         margin-bottom: 10px;
     }
@@ -2065,9 +2070,6 @@ footer {
     }
 
 
-    .service-card {
-        max-height: 100%;
-    }
 
     .cards-container,
     .cards-container-1 {
