@@ -3,8 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
-
-
 :root {
     --font-size-base: 16px;
     --font-weight-normal: 400;
@@ -49,7 +47,6 @@ body {
 
 
 /* navbar */
-
 .navbar.navbar-expand-lg {
     padding-top: 20px;
 }
@@ -67,17 +64,14 @@ body {
 
 .dropdown-menu {
     max-height: none !important;
-
     overflow: visible !important;
 }
 
 .logo-name {
     font-family: 'Source Code Pro', monospace;
-
     font-weight: 700;
     font-style: Bold;
     font-size: 24px;
-
     line-height: 100%;
     letter-spacing: -0.27px;
     color: var(--font-basic-color);
@@ -105,7 +99,6 @@ body {
 
 
 
-
 .btnn {
     width: 155px;
     font-family: var(--font-aeonik);
@@ -124,7 +117,7 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    /* gap: 4px; */
+  
     text-align: center;
     font-weight: var(--font-weight-normal);
     font-size: 14px;
@@ -137,7 +130,6 @@ body {
     background-clip: padding-box, border-box;
     animation: border-animate 4s linear infinite;
 
-    /* Transition for hover effects */
     transition: box-shadow 0.3s ease-in;
 
     box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 12px 0px inset;
@@ -157,15 +149,11 @@ body {
 
 /* hero section  */
 .hero-container {
-
     max-width: 1440px;
     margin: 0 auto;
     text-align: center;
-
     background-repeat: no-repeat;
-
     background-position: center;
-
     position: relative;
     z-index: 3;
 }
@@ -257,7 +245,6 @@ body {
 
     border: 2px solid transparent;
     border-radius: 50px;
-
     background:
         linear-gradient(#0c0a14, #0c0a14) padding-box,
         linear-gradient(90deg, #090EDB, #8D1EA2, #090EDB) border-box;
@@ -281,7 +268,6 @@ body {
 
     padding: 6px 16px;
     color: var(--font-basic-color);
-
     border-radius: 50px;
 
     display: flex;
@@ -304,7 +290,6 @@ body {
 .hero-title {
     font-family: var(--font-sora);
     font-weight: 600;
-
     font-size: 60px;
     line-height: 120%;
     letter-spacing: 0%;
@@ -318,7 +303,6 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 24px;
-
     line-height: 140%;
     letter-spacing: 0%;
     text-align: center;
@@ -416,7 +400,6 @@ body {
 
 
 /* services */
-
 .service-container {
     margin: 0 auto;
     text-align: center;
@@ -445,7 +428,6 @@ body {
 }
 
 .service-para {
-
     font-weight: 400;
     font-style: normal;
     font-size: 24px;
@@ -460,7 +442,6 @@ body {
 
 
 /* service card */
-
 .service-card-container {
     display: flex;
     max-width: 1340px;
@@ -492,7 +473,6 @@ body {
 
     margin-bottom: 100px;
     transition: all 0.3s ease-in-out;
-
 
     /* clip-path: polygon(0 0, 85% 0, 100% 18%, 100% 100%, 0 100%); */
     position: relative;
@@ -535,7 +515,6 @@ body {
     line-height: 120%;
     letter-spacing: 0%;
     color: #D6DDF8;
-    ;
 
 }
 
@@ -568,7 +547,6 @@ body {
 
 
 /* choose us section */
-
 
 .globe-container {
     max-width: 1740px;
@@ -615,7 +593,6 @@ body {
     text-align: center;
     z-index: 2;
     position: relative;
-
 }
 
 .choose-container::before {
@@ -719,9 +696,6 @@ body {
     letter-spacing: 0%;
     text-align: center;
     color: var(--font-color-text);
-    /* padding-top: 16px; */
-    /* padding-bottom: 40px; */
-    /* margin-bottom: 40px; */
 
 }
 
@@ -773,8 +747,7 @@ body {
 
     width: 100%;
     height: 30%;
-    /* margin-left: 50%; */
-    /* transform: translateX(-50%); */
+
     display: block;
     z-index: 0;
     position: relative;
@@ -835,7 +808,6 @@ body {
 .content {
     display: flex;
     gap: 16px;
-
 }
 
 .content-item .content:not(:last-child) {
@@ -883,7 +855,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, auto);
     row-gap: 16px;
-    column-gap: 16px;
+    column-gap: 20px;
     justify-content: start;
     align-items: start;
 }
@@ -1456,14 +1428,9 @@ body {
     line-height: 100%;
     letter-spacing: 0%;
     color: #FFFFFF;
-
 }
 
 /* footer */
-footer {
-
-    /* background-color: #0c0a14; */
-}
 
 .footer-container {
     max-width: 1840px;
@@ -1481,9 +1448,7 @@ footer {
     padding: 34.5px 48px;
     font-family: 'Sora', sans-serif;
     font-weight: 600;
-
     font-size: 12px;
-
     line-height: 20px;
     letter-spacing: 3.5%;
     text-align: center;
@@ -1515,32 +1480,26 @@ footer {
     letter-spacing: 0%;
     color: var(--font-color-text);
     margin-bottom: 0;
-
 }
 
 
 .footer-icons {
     gap: 32px;
-
     max-width: 256px;
     max-height: 40px;
 }
 
 .footer-icon {
     background-color: #1B1530;
-
     padding: 11.4px;
     border-radius: 100%;
-
 }
-
 
 
 @media only screen and (max-width:576px) {
     .container {
         gap: 0;
     }
-
 
     /* hero section */
     .g-1,
@@ -1550,8 +1509,6 @@ footer {
     .g-5 {
         display: none;
     }
-
-
 
     .hero-container {
         max-width: 100%;
@@ -1630,7 +1587,6 @@ footer {
     .all-section-title {
         margin-top: 10px;
         font-size: 20px;
-        /* font-size: 100%; */
         padding: 0 10px;
     }
 
@@ -1756,7 +1712,6 @@ footer {
 
 
 
-
     /* pricing */
     .pricing-card-container {
         flex-direction: column;
@@ -1793,10 +1748,8 @@ footer {
     }
 
     .test-inner-desc {
-        /* font-size: 12px; */
         font-size: 100%;
     }
-
 
 
 
@@ -1822,7 +1775,6 @@ footer {
 
     .future-para {
         font-size: 14px;
-        /* padding-top: 10px; */
     }
 
     .f-line {
@@ -1830,7 +1782,6 @@ footer {
         left: 40px;
         bottom: 370px;
     }
-
 
     /* footer */
     .footer-top {
@@ -1843,7 +1794,6 @@ footer {
     }
 
     .footer-item {
-        /* display: flex; */
         padding: 5px;
         flex-direction: row;
         font-size: 9px;
@@ -1863,7 +1813,6 @@ footer {
     .container,
     .navbar-collapse {
         gap: 0;
-
     }
 
     .g-1 {
@@ -1919,7 +1868,6 @@ footer {
 
 
     /* choose us */
-
     .choose-container::before {
         opacity: 0.3;
 
@@ -1959,7 +1907,6 @@ footer {
     /* deep */
     .mini-1 {
         bottom: 150px;
-
     }
 
 
@@ -2004,7 +1951,6 @@ footer {
     }
 
     .checkmark-desc {
-        /* font-size: 14px; */
         font-size: 100%;
     }
 
@@ -2068,7 +2014,6 @@ footer {
     .navbar-collapse {
         gap: 0;
     }
-
 
 
     .cards-container,
